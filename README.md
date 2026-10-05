@@ -8,8 +8,10 @@ An opinionated ROS2 C++ node template, optimised for ISC.
 4. Replace the following in both file names and code exactly and consistently. 
    1. TODO_PACKAGE_NAME: Replace with the package name. Use snake case. Ex. `data_logger`
    2. TODO_NODE_NAME: Replace with the node name. Use Pascal case. Ex. `DataLogger`
+   3. launch/TODO_PACKAGE_NAME.launch.py: Replace with the node name. Use Snake Case, However this is not std across all ISC repos. Ex. `data_logger`
 5. `colcon build` again. If it builds, you are done
 6. Rename outer folder
+
 7. Review the optional dependencies, and remove what you do not need
 
 # Dependencies
